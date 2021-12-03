@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="Es">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="https://www.sena.edu.co/Style%20Library/alayout/images/logoSena.png" rel="shortcut icon"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Notificar
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
+  
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+       <div class="sidebar" data-color="orange">
+    
+    
+      <div class="logo">
+    
+        <a class="simple-text logo-normal">
+          SENA
+        </a>
+      </div>
+      <div class="sidebar-wrapper" id="sidebar-wrapper">
+        <ul class="nav">
+          <li>
+            <a href="./dashboard.html">
+              <i class="now-ui-icons design_app"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+           <li>
+            <a href="../consulta.php">
+              <i class="now-ui-icons education_atom"></i>
+              <p>Consultar Asistencia</p>
+            </a>
+          </li>
+          <li >
+            <a href="../examples/excusa.html">
+              <i class="now-ui-icons location_map-big"></i>
+              <p>Excusa</p>
+            </a>
+          </li>
+          <li class="active">
+            <a href="../examples/notificar.html">
+              <i class="now-ui-icons ui-1_bell-53"></i>
+              <p>Notificaciones</p>
+            </a>
+          </li>
+         <li>
+            <a href="../examples/perfil.php">
+              <i class="now-ui-icons ui-1_bell-53"></i>
+              <p>Perfil</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel" id="main-panel">
+      
+      <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="#pablo">Notificacion</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <form>
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Search...">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <i class="now-ui-icons ui-1_zoom-bold"></i>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#pablo">
+                  <i class="now-ui-icons users_single-02"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Account</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="panel-header">
+        <div class="header text-center">
+          <h2 class="title">Notificaciones</h2>
+        
+        </div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Notification de Asistencias</h4>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-info">
+                  <span>Asistio a la clase  Programacion Basica PHP del   28/05/21</span>
+                </div>
+                <div class="alert alert-info">
+                  <button type="button" aria-hidden="true" class="close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                  </button>
+                  <span>Esta asistiendo puntualmente a sus clases.</span>
+                </div>
+                <div class="alert alert-info alert-with-icon" data-notify="container">
+                  <button type="button" aria-hidden="true" class="close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                  </button>
+                  <span data-notify="icon" class="now-ui-icons ui-1_bell-53"></span>
+                  <span data-notify="message">Tiene un retardo en la clase Análisis y Diseño Proyecto .</span>
+                </div>
+                <div class="alert alert-info alert-with-icon" data-notify="container">
+                  <button type="button" aria-hidden="true" class="close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                  </button>
+                  <span data-notify="icon" class="now-ui-icons ui-1_bell-53"></span>
+                  <span data-notify="message">La contraseña fue cambiada correctamente el 26/06/2021.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Notification de LLamados de Atencion</h4>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-info">
+                  <button type="button" aria-hidden="true" class="close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                  </button>
+                  <span><b> Principal - </b> No tiene ningun llmado de atencion ".alerta-principal"</span>
+                </div>
+                <div class="alert alert-success">
+                  <button type="button" aria-hidden="true" class="close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                  </button>
+                  <span><b> Info - </b> Tiene un llamado de atencion ".alerta-info"</span>
+                </div>
+                <div class="alert alert-warning">
+                  <button type="button" aria-hidden="true" class="close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                  </button>
+                  <span><b> Advertencia - </b> Tiene 3 llamados de atencion ".alerta-advertencia"</span>
+                </div>
+                <div class="alert alert-danger">
+                  <button type="button" aria-hidden="true" class="close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                  </button>
+                  <span><b> Peligro - </b> Esta con mas de 5 llamados de atencion ".alerta-peligro"</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+       <footer class="footer">
+        <div class=" container-fluid ">
+
+          <div class="copyright" id="copyright">
+            &copy; <script>
+              document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script>, S.I Asistencia Sena.   Jaca Team.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+</body>
+
+</html>
